@@ -1,0 +1,54 @@
+.clock {
+	display: inline-block;
+	position: relative;
+	margin-right: 20px;
+	margin-top: 2rem;
+}
+
+.clock-name {
+	text-align: center;
+}
+
+.clock-face {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #f5f5f5;
+}
+
+.hand {
+	position: absolute;
+	left: 50%;
+	bottom: 50%;
+	transform-origin: bottom;
+	background-color: #333;
+}
+
+.hour-hand {
+	width: 6px;
+	height: 60px;
+	margin-left: -3px;
+}
+
+.minute-hand {
+	width: 4px;
+	height: 90px;
+	margin-left: -2px;
+}
+
+.second-hand {
+	width: 2px;
+	height: 100px;
+	margin-left: -1px;
+	background-color: red;
+}
+
+.remove-button {
+	position: absolute;
+	right: 0;
+	background: none;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+}
